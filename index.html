@@ -13,20 +13,40 @@
       <a href="#" class="header-logo"><img src="./assets/imgs/svg/logo.svg" alt="A-TECH PROGRAMMING"></a>
       <nav class="header-menu">
         <ul class="header-list">
-          <li><a href="#">選ばれる理由</a></li>
-          <li><a href="#">学習カリキュラム</a></li>
-          <li><a href="#">カリキュラムサポート</a></li>
-          <li><a href="#">料金</a></li>
+          <li><a href="#first-link">選ばれる理由</a></li>
+          <li><a href="#second-link">学習カリキュラム</a></li>
+          <li><a href="#third-link">カリキュラムサポート</a></li>
+          <li><a href="#fourth-link">料金</a></li>
         </ul>
       </nav>
       <div class="header-btn">
         <a href="#"><span>無料</span>お問い合わせはこちら</a>
       </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="header-sp-menu">
+          <ul>
+            <li><a href="#first-link">選ばれる理由</a></li>
+            <li><a href="#second-link">学習カリキュラム</a></li>
+            <li><a href="#third-link">カリキュラムサポート</a></li>
+            <li><a href="#fourth-link">料金</a></li>
+          </ul>
+          <div class="contact-btn">
+            <a href="#"><span>無料</span>お問い合わせはこちら</a>
+          </div>
+          <div class="header-sp-logo-wrap">
+            <img src="./assets/imgs/svg/logo02.svg" alt="A-TECH ロゴ画像" class="header-sp-logo">
+          </div>
+      </nav>
     </div>
   </header>
   <div class="body-second-container">
     <section class="main-reason-container">
-      <h2 class="main-reason-title">今、エンジニア職につく<span>4</span>つの理由</h2>
+      <h2 class="main-reason-title">今、エンジニア職につく<br class="br-tgl"><span>4</span>つの理由</h2>
       <p class="main-reason-text">エンジニアは、今や私たちの生活になくてはならない多くのサービスを提供する職種です。<br>ITエンジニアの将来性と需要はますます高まっており、高度なスキルを駆使して活躍できるキャリアパスを実現することで安定して高収入が見込めます。</p>
       <ul class="main-reason-list">
         <li>
@@ -48,7 +68,7 @@
       </ul>
     </section>
   </div>
-  <div class="body-third-container">
+  <div class="body-third-container" id="first-link">
     <section class="third-container-inner">
       <h2 class="third-container-title">A-TECHが<br><span><strong>選</strong>ばれる<strong>理由</strong></span></h2>
       <div class="reasons-container">
@@ -76,7 +96,7 @@
       </div>
     </section>
   </div>
-  <div class="body-fourth-container">
+  <div class="body-fourth-container" id="second-link">
     <section class="fourth-container-inner">
       <h2 class="fourth-container-inner-title">学習カリキュラム</h2>
       <div class="skills-container">
@@ -120,10 +140,10 @@
       </section>
     </section>
   </div>
-  <div class="body-fifth-container">
+  <div class="body-fifth-container" id="third-link">
     <div class="fifth-container-inner">
       <section class="curriculum-container">
-        <h2 class="curriculum-title">豊富な&nbsp;<span>カリキュラムサポート</span></h2>
+        <h2 class="curriculum-title">豊富な&nbsp;<br class="br-tgl-curriculum-title"><span>カリキュラムサポート</span></h2>
         <ul class="curriculum-list">
           <li>
             <img src="./assets/imgs/sprt_img01.png" alt="実務体験 画像" class="curriculum-icon">
@@ -172,7 +192,7 @@
       </section>
     </div>
   </div>
-  <div class="body-sixth-container">
+  <div class="body-sixth-container" id="fourth-link">
     <div class="sixth-container-inner">
       <section class="price-container">
         <h2 class="price-container-title">料金</h2>
@@ -187,7 +207,7 @@
           </div>
         </div>
       </section>
-      <img src="./assets/imgs/price_img.png" alt="料金比べ 画像" class="price-table">
+      <div class="price-table-wrap"><img src="./assets/imgs/price_img.png" alt="料金比べ 画像" class="price-table"></div>
     </div>
   </div>
   <div class="body-seventh-container">
@@ -214,7 +234,7 @@
   </div>
   <div class="body-eighth-container">
     <div class="eighth-container-inner">
-      <h2 class="provide-title"><span>一般社団法人MF様へ</span>&nbsp;授業を提供</h2>
+      <h2 class="provide-title"><span>一般社団法人MF様へ</span><br class="br-tgl">&nbsp;授業を提供</h2>
       <div class="provide-content">
         <div class="provide-body">
           <div class="copy">
@@ -270,5 +290,9 @@
     </div>
     <p>2022&nbsp;&copy;&nbsp;A-TECH.</p>
   </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
