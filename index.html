@@ -272,16 +272,26 @@
       <p>お気軽にお問い合わせ合わせください。</p>
       <form action="" method="POST">
         <dl class="contact-table">
-          <dt>氏名（漢字）</dt>
-          <dd><input type="text" name="userName" value=""></dd>
-          <dt>氏名（カナ）</dt>
-          <dd><input type="text" name="userNameJa" value=""></dd>
-          <dt>メールアドレス</dt>
-          <dd><input type="mail" name="email" value=""></dd>
-          <dt>電話番号</dt>
-          <dd><input type="tel" name="tel" value=""></dd>
-          <dt>お問い合わせ内容</dt>
-          <dd><textarea type="text" name="content" value=""></textarea></dd>
+          <dt >
+            <label for="userName">氏名（漢字）</label>
+          </dt>
+          <dd><input type="text" id="userName" name="userName" value=""></dd>
+          <dt >
+            <label for="userNameJa">氏名（カナ）</label>
+          </dt>
+          <dd><input type="text" id="userNameJa" name="userNameJa" value=""></dd>
+          <dt >
+            <label for="email">メールアドレス</label>
+          </dt>
+          <dd><input type="mail" id="email" name="email" value=""></dd>
+          <dt >
+            <label for="tel">電話番号</label>
+          </dt>
+          <dd><input type="tel" id="tel" name="tel" value=""></dd>
+          <dt >
+            <label for="content">お問い合わせ内容</label>
+          </dt>
+          <dd><textarea type="text" id="content" name="content" value=""></textarea></dd>
         </dl>
         <button type="submit">確認</button>
       </form>
