@@ -37,6 +37,35 @@ img {
   width: 130px;
 }
 
+.page-top-button {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #38b6ff;
+  border: solid 2px #38b6ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.page-top-button a{
+  width: 100%;
+}
+
+.page-top-button::after {
+  content: "";
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border-top: 4px solid #fff;
+  border-right: 4px solid #fff;
+  transform: translateY(20%) rotate(-45deg);
+}
+
 header {
   width: 100%;
   position: sticky;
